@@ -1,3 +1,3 @@
 # cpp
 
-Learning records, not for commercial use
+Learning records, not for commercial use.
