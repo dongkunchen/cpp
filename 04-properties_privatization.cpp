@@ -15,11 +15,10 @@ public:
 	}
 	void setAge(int age)
 	{
-		//¥i¹LÂo¼Æ¾Ú
 		if (age < 0 || age > 150) 
 		{
 			m_Age = 0;
-			cout << "§A¬O¦Ñ§¯ºë?" << endl;
+			cout << "Are you old fairy?" << endl;
 			return;
 		}
 		m_Age = age;
@@ -38,11 +37,11 @@ private:
 int main4() {
 
 	Person p;
-	p.setName("±i¤T");
-	cout << "©m¦W¬°: " << p.getName() << endl;
+	p.setName("zhangsan");
+	cout << "å§“åç‚º: " << p.getName() << endl;
 
 	p.setAge(1000);
-	cout << "¦~ÄÖ: " << p.getAge() << endl;
+	cout << "Age: " << p.getAge() << endl;
 
 	system("pause");
 
