@@ -28,11 +28,11 @@ void test18()
 	v.push_back(10);
 	v.push_back(20);
 
-	cout << "´À´««e" << endl;
+	cout << "Before replacement" << endl;
 	for_each(v.begin(), v.end(), MyPrint18());
 	cout << endl;
 
-	cout << "´À´««á" << endl;
+	cout << "After replacement" << endl;
 	replace(v.begin(), v.end(), 20, 2000);
 	for_each(v.begin(), v.end(), MyPrint18());
 	cout << endl;
