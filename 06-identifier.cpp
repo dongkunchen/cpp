@@ -3,11 +3,6 @@ using namespace std;
 
 int main6() {
 
-	//不能是關鍵字
-	//字母 數字 下劃線構成
-	//開頭只能字母或下劃線
-	//區分大小寫
-	//見名知義
 
 	int abc = 10;
 	int _abc = 11;
