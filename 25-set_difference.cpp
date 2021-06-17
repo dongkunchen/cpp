@@ -21,12 +21,12 @@ void test25()
 	vector<int>vTarget;
 	vTarget.resize(max(v1.size(),v2.size()));
 	
-	cout << "v1和v2的差集為: " << endl;
+	cout << "v1 and v2 Subtraction: " << endl;
 	vector<int>::iterator itEnd1 = set_difference(v1.begin(), v1.end(), v2.begin(), v2.end(), vTarget.begin());
 	for_each(vTarget.begin(), itEnd1, myPrint25);
 	cout << endl;
 
-	cout << "v2和v1的差集為: " << endl;
+	cout << "v2 and v1 Subtraction: " << endl;
 	vector<int>::iterator itEnd2 = set_difference(v2.begin(), v2.end(), v1.begin(), v1.end(), vTarget.begin());
 	for_each(vTarget.begin(), itEnd2, myPrint25);
 	cout << endl;
