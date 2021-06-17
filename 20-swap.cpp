@@ -18,13 +18,13 @@ void test20()
 		v2.push_back(i + 100);
 	}
 
-	cout << "交換前: " << endl;
+	cout << "Before the exchange: " << endl;
 	for_each(v1.begin(), v1.end(), myPrint20);
 	cout << endl;
 	for_each(v2.begin(), v2.end(), myPrint20);
 	cout << endl;
 
-	cout << "交換後: " << endl;
+	cout << "After the exchange: " << endl;
 	swap(v1, v2);
 	for_each(v1.begin(), v1.end(), myPrint20);
 	cout << endl;
