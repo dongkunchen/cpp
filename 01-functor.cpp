@@ -10,15 +10,15 @@ public:
 	}
 };
 
-void test01()
+void test()
 {
 	MyAdd myAdd;
 	cout << myAdd(10, 10) << endl;
 }
 
-int main1() {
+int main() {
 
-	test01();
+	test();
 
 	system("pause");
 
