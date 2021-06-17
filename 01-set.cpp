@@ -11,7 +11,7 @@ void printSet(const set<int>s)
 	cout << endl;
 }
 
-void test01()
+void test()
 {
 	set<int>s1;
 
@@ -21,7 +21,7 @@ void test01()
 	s1.insert(30);
 	s1.insert(30);
 
-	// �|�۰ʱƧǨåh��
+	// ·|¦Û°Ê±Æ§Ç¨Ã¥h­«
 	printSet(s1);
 
 	set<int>s2(s1);
@@ -33,9 +33,9 @@ void test01()
 
 }
 
-int main1() {
+int main() {
 
-	test01();
+	test();
 
 	system("pause");
 
