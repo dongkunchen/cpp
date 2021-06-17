@@ -33,17 +33,17 @@ void test19()
 	v.push_back(20);
 	v.push_back(30);
 
-	cout << "´À´««e: " << endl;
+	cout << "Before replacement: " << endl;
 	for_each(v.begin(), v.end(), MyPrint19());
 	cout << endl;
 
 	replace_if(v.begin(), v.end(), Greater19(),3000);
-	cout << "´À´««á: " << endl;
+	cout << "After replacement: " << endl;
 	for_each(v.begin(), v.end(), MyPrint19());
 	cout << endl;
 }
 
-int main19() {
+int main() {
 
 	test19();
 
