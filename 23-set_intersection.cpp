@@ -27,7 +27,7 @@ void test23()
 	
 	vector<int>::iterator itEnd = set_intersection(v1.begin(), v1.end(), v2.begin(), v2.end(), vTarget.begin());
 
-	//注意要用itEnd 不要用vTarget.end();
+	//use itEnd  don'tuse-vTarget.end();
 	for_each(vTarget.begin(), itEnd, MyPrint23());
 	cout << endl;
 
