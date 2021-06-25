@@ -2,27 +2,27 @@
 using namespace std;
 
 
-//¦hºAº¡¨¬±ø¥ó
-//1.¦³Ä~©ÓÃö«Y
-//2.¤lÃş­«¼g¤÷Ãşµê¨ç¼Æ
+//å¤šæ…‹æ»¿è¶³æ¢ä»¶
+//1.æœ‰ç¹¼æ‰¿é—œä¿‚
+//2.å­é¡é‡å¯«çˆ¶é¡è™›å‡½æ•¸
 
 class Animal
 {
 public:
-	//µê¨ç¼Æ ¥i¥H°ÊºA¸j©w¦a§}
+	//è™›å‡½æ•¸ å¯ä»¥å‹•æ…‹ç¶å®šåœ°å€
 	virtual void speak()
 	{
-		cout << "°Êª«¦b»¡¸Ü" << endl;
+		cout << "å‹•ç‰©åœ¨èªªè©±" << endl;
 	}
 };
 
 class Cat : public Animal
 {
 public:
-	//¦³virtual·|­«¼g
+	//æœ‰virtualæœƒé‡å¯«
 	void speak()
 	{
-		cout << "¤p¿ß¦b»¡¸Ü" << endl;
+		cout << "å°è²“åœ¨èªªè©±" << endl;
 	}
 };
 
@@ -31,11 +31,11 @@ class Dog : public Animal
 public:
 	void speak()
 	{
-		cout << "¤pª¯¦b»¡¸Ü" << endl;
+		cout << "å°ç‹—åœ¨èªªè©±" << endl;
 	}
 };
 
-//¦pªG¨Sµê¨ç¼Æ´N·|°õ¦æ¤÷ °Êª«»¡¸Ü
+//å¦‚æœæ²’è™›å‡½æ•¸å°±æœƒåŸ·è¡Œçˆ¶ å‹•ç‰©èªªè©±
 void doSpeak(Animal& animal)
 {
 	animal.speak();
@@ -52,7 +52,7 @@ void test01()
 
 
 
-int main1() {
+int main() {
 	 
 	test01();
 
