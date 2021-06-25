@@ -25,18 +25,18 @@ void test02()
 
 	if (s1.empty()) 
 	{
-		cout << "s1¬°ªÅ" << endl;
+		cout << "s1Â¬Â°ÂªÃ…" << endl;
 	}
 	else
 	{
-		cout << "s1¤£¬°ªÅ" << endl;
-		cout << "s1¤j¤p" << s1.size() << endl;
+		cout << "s1Â¤Â£Â¬Â°ÂªÃ…" << endl;
+		cout << "s1Â¤jÂ¤p" << s1.size() << endl;
 	}
 
 }
 
 
-int main2() {
+int main() {
 
 	test02();
 
