@@ -34,7 +34,7 @@ private:
 };
 
 
-int main4() {
+int main() {
 
 	Person p;
 	p.setName("zhangsan");
