@@ -15,13 +15,13 @@ public:
 	}
 };
 
-int main1() {
+int main() {
 
 	Circle c1;
 
 	c1.m_r = 10;
 
-	cout << "¶êªº©Pªø¬°: " << c1.calculateZC() << endl;
+	cout << "Å›Ä™ÅžÅŸÅ PÅžÅ™Å¹Â°: " << c1.calculateZC() << endl;
 
 	system("pause");
 
