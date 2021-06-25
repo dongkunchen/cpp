@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-//¨ç¼Æ©w¸q ªğ¦^­ÈÃş«¬ ¨ç¼Æ¦W(°Ñ¼Æ){¨ç¼ÆÅé  return ªí¹F¦¡}
-//¥[ªk¨ç¼Æ
+//å‡½æ•¸å®šç¾© è¿”å›å€¼é¡å‹ å‡½æ•¸å(åƒæ•¸){å‡½æ•¸é«”  return è¡¨é”å¼}
+//åŠ æ³•å‡½æ•¸
 /*int add(int num1, int num2) {
 
 	int sum = num1 + num2;
@@ -11,7 +11,7 @@ using namespace std;
 }
 */
 
-int main1() {
+int main() {
 
 
 	system("pause");
